@@ -1,70 +1,93 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [Askme Society](https://ask-me-society.web.app/)                         
 
-## Available Scripts
+An Online Question and Answering web application using `React.js`
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Question asking and answering web app
+- User login and registration functionality
+- Protected routing for logged in users
+- Users and Admins have two different dashboard
+- Users can ask or answer outher user's question
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `HTML`
+- `CSS` 
+- `JavaScript`
+- `NPM`
+- `Styled Components`
+- `React`
+- `React Router`
+- `Firebase`
+- `Node.js`
+- `Express.js`
+- `MongoDB`
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Local Setup
+To run this project on your local machine, you have to install the following software.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. [`Node.js`](https://nodejs.org/en/)
+2. [`Git Bash`](https://git-scm.com/downloads)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Environment Variables
 
-### `npm run eject`
+To run this project, you will need to add the following environment variables to your .env.local file.
+These all are firebase credentials.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`REACT_APP_API_KEY`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`REACT_APP_AUTH_DOMAIN`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`REACT_APP_PROJECT_ID`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`REACT_APP_STRONGE_BUCKED`
 
-## Learn More
+`REACT_APP_MESSAGEING_SENDER_ID`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`REACT_APP_APP_ID`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`REACT_APP_MESUREMENT_ID`
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Run Locally
 
-### Analyzing the Bundle Size
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  git clone https://github.com/tusharahmmed/ask-me-society.git
+```
 
-### Making a Progressive Web App
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  cd ask-me-society
+```
 
-### Advanced Configuration
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  npm install
+```
 
-### Deployment
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+  npm run start
+```
 
-### `npm run build` fails to minify
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://tusharahmmed.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tusharahmmed/)
+
+
+
+## Copyright 
+©
+Copyright 2022 all right reserved 
+[Tushar Ahmmed](https://www.linkedin.com/in/tusharahmmed/)

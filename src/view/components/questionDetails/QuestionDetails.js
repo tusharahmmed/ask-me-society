@@ -22,7 +22,7 @@ const QuestionDetails = () => {
         })
         .then(result => {
             setQuestionDetails(result.data);
-            setAnswers(result.data?.answers);
+            setAnswers(result?.data?.answers);
         });
     },[answers]);
     

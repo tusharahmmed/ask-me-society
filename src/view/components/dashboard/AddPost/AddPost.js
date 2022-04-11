@@ -26,6 +26,8 @@ const AddPost = () => {
         data.descriptionInHtml = editorText;
         data.descriptionInText = extractContent(editorText);
 
+        //
+        data.answers = [];
         // user create date
         let postTime = new Date();
         data.postTime = postTime;
@@ -43,7 +45,7 @@ const AddPost = () => {
             icon: "warning",
             buttons: true,
             dangerMode: true,
-            answers: []
+            
         })
             .then((publishePost) => {
 
